@@ -7,7 +7,7 @@ import { CsModule } from '@project-sunbird/client-services';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'demo-app-v8';
+  title = 'demo-app-v9';
   constructor(public router: Router) {
   }
   ngOnInit() {
