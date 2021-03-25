@@ -51,7 +51,7 @@ export class AppComponent implements OnInit {
   }
 
   navigate() {
-    const result = [16];
+    const result = [118];
     this.router.navigate(['/discussion-forum'], {
       queryParams: {
         categories: JSON.stringify({ result }),
